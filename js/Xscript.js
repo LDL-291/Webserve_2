@@ -53,9 +53,6 @@ $(document).ready(function () {
         adjustGalleryLayout(popupInstance.content.attr('id'));       
     });
 
-    $('.tm-btn-contact').on("click", function(e) {
-        popupInstance.goTo(4); 
-    })
 
     // update items based on current filters
     function changeFilter(selector) { $container.isotope({ filter: selector }); }
